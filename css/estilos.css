@@ -1,0 +1,300 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden !important;
+ 	background-color: white;        
+}
+img {
+    
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Encabezado  */
+#encabezado, #imgLogo, #imgEncabezado {
+    background-color: #01002E !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Barra Navegador */
+#navegador {
+    background-color:#1F0F3F;
+}
+
+/* SOLUTEC SMART */
+.navbar-default .navbar-brand:link, .navbar-default .navbar-brand:visited  {
+  color:#84A6FC;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active  {
+  color:#adc0e8;
+}
+
+/* Separadores */
+#separadorPrincipal{
+    background-color: #100429;
+    padding-top: 2px;
+}
+#separadorSecundario {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Menues */
+#menues a:focus, #menues a:link {
+    background-color:#1f0f3f;
+}
+#menues:focus, #menues:link {
+    background-color:#1f0f3f;
+}
+#menues a {
+    color:#ffffff;
+}
+#menues a:hover {
+    background-color:#2c155a;
+}
+#menues ul {
+    background-color:#1f0f3f;
+}
+
+/* Boton desplegable */
+#botonNav:hover, #botonNav:focus{
+    background-color: #1f0f3f;
+}
+
+/* Submenues */
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#555;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 1px;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Pie de Pagina */
+#piePagina {
+    background-color: #2b2b2b;
+    color: #d2ced2;
+    font-size: 1.2em;
+}
+#botonwsp #imgwsp {
+    opacity: 1;
+    display: block;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#botonwsp:hover #imgwsp {
+  opacity: 0.3;
+}
+#botonwsp{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top-width: 0px;
+    margin-right: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    transition: all 0.4s;
+    background-color:#254242;
+}
+#botonwsp:hover {
+    color: #b0a9a9 !important;  
+    box-shadow: inset 0 -70px 0 0 #063604;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Contenedor Titulos Principales */
+#Jumbotron {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-image: url('../img/fondo-jumbotron.jpg');
+    color: #ffffff;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Texto */
+#textoJustificado {
+  text-align: justify;
+}
+#valores {
+    font-family: "Segoe UI";
+    font-size: 1.2em;    
+}
+#tituloNosotros {
+    color: #b61e6a;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Boton Up */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2.2em !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1f0f3f;
+    color: #ffffff;
+    cursor: pointer;
+    padding-bottom: 0.3em;
+    padding-top: 0.4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 9em;
+    
+}
+
+.fa-arrow-circle-up {
+    font-size: 2em !important;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Imagenes */
+#centrarImagen {
+    margin-right: auto;
+    margin-left: auto;
+}
+/* img/boton mas info */
+#contenedorMas {
+  position: relative;
+  background-color: #ffffff;
+  width:7em;
+  border-radius:0.5em;
+  margin: auto;
+}
+
+#imgMas {
+  opacity: 1;
+  display: block;
+  width: 5em;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin: auto;
+}
+
+#contenedorMas:hover a #imgMas {
+  opacity: 0.8;  
+}
+
+/*     slideshow-container     */
+
+/* The dots/bullets/indicators */
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #9c28e7;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*+++++++++++++++++++++++++++++++++++++++*/
+/* Lineas horizontales */
+#lineaHorizontal {
+    border-top: 0.1em solid #6f6b6b !important;
+}
+#lineaValores{
+    border-top: 0.1em solid #6f6b6b !important;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/*      OTROS       */
+#blanco {
+    background-color: #FFFFFF !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#imagen6 {
+    margin:auto;
+}
+#imagen4, #imagen5{
+    padding-bottom: 15px;
+}
+#botonServicios:link {
+    color: #b61e6a;
+}
